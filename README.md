@@ -12,8 +12,8 @@ Follow the below installation instructions
 Prerequisites for .NET web server.
 
 - <a href="https://git-scm.com/" target="_blank">git</a> (>= 2.20.1 required)
-- <a href="https://nodejs.org/en/" target="_blank">node.js</a> (>= v10.16.3 required)
-- <a href="https://www.npmjs.com/" target="_blank">npm</a> (>= 6.9.0 required)
+- <a href="https://visualstudio.microsoft.com/downloads/" target="_blank">Visual Studio</a> (>= v10.16.3 required)
+- <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1" target="_blank">.NET Core 3.1</a> (>= 6.9.0 required)
 
 
 ### Clone the repository
@@ -25,21 +25,14 @@ git clone https://github.com/telecmi/telecmi_example_.net.git
 ```
 
 Change the directory to your project directory
-```bash
-cd telecmi_example_.net
-```
-### Install require  package using npm
-Use command __npm install__ to install the node modules.
-```bash
-npm install  # shows the tagged versions
-```
+
 
 ## Run
 
-Run your node server using the below command
+Run your .NET server using the below command
 
 ```bash
-node server.js
+donet run
 ```
 Now you can able to test our webhooks and live events, from your local server. To expose your local web server to the internet use ngrok. 
 
