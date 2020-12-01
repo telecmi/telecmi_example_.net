@@ -32,7 +32,7 @@ Change the directory to your project directory
 Run your .NET server using the below command
 
 ```bash
-donet run
+dotnet run
 ```
 Now you can able to test our webhooks and live events, from your local server. To expose your local web server to the internet use ngrok. 
 
