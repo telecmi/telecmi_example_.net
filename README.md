@@ -12,8 +12,8 @@ Follow the below installation instructions
 Prerequisites for .NET web server.
 
 - <a href="https://git-scm.com/" target="_blank">git</a> (>= 2.20.1 required)
-- <a href="https://visualstudio.microsoft.com/downloads/" target="_blank">Visual Studio</a> (>= v10.16.3 required)
-- <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1" target="_blank">.NET Core 3.1</a> (>= 6.9.0 required)
+- <a href="https://visualstudio.microsoft.com/downloads/" target="_blank">Visual Studio</a> (>= 16.8 required)
+- <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1" target="_blank">.NET Core 3.1</a> (>= 3.1 required)
 
 
 ### Clone the repository
