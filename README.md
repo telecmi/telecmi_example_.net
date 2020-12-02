@@ -39,7 +39,7 @@ Now you can able to test our webhooks and live events, from your local server. T
 You can create a secure HTTP tunnel by providing the port number on which your web server is running. For example, your web server is running on port number 5000. you can launch your HTTP tunnel with the following command line.
 
 ```bash
-./ngrok http 5000
+ngrok http 5000 -host-header="localhost:5000"
 ```
 
 After exposing your local webserver to the internet using ngrok, you will get the following output.
